@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F955A9A919EA65CC006D29FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9A819EA65CC006D29FB /* main.m */; };
+		F955A9AC19EA65CC006D29FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9AB19EA65CC006D29FB /* AppDelegate.m */; };
+		F955A9AF19EA65CC006D29FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9AE19EA65CC006D29FB /* ViewController.m */; };
+		F955A9B219EA65CC006D29FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955A9B019EA65CC006D29FB /* Main.storyboard */; };
+		F955A9B419EA65CC006D29FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F955A9B319EA65CC006D29FB /* Images.xcassets */; };
+		F955A9B719EA65CC006D29FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F955A9B519EA65CC006D29FB /* LaunchScreen.xib */; };
+		F955A9C319EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9C219EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F955A9BD19EA65CC006D29FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F955A99B19EA65CC006D29FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F955A9A219EA65CC006D29FB;
+			remoteInfo = CHQGesturePasscodeViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F955A9A319EA65CC006D29FB /* CHQGesturePasscodeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHQGesturePasscodeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F955A9A719EA65CC006D29FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F955A9A819EA65CC006D29FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F955A9AA19EA65CC006D29FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F955A9AB19EA65CC006D29FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F955A9AD19EA65CC006D29FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F955A9AE19EA65CC006D29FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F955A9B119EA65CC006D29FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F955A9B319EA65CC006D29FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F955A9B619EA65CC006D29FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F955A9BC19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHQGesturePasscodeViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F955A9C119EA65CC006D29FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F955A9C219EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHQGesturePasscodeViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F955A9A019EA65CC006D29FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F955A9B919EA65CC006D29FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F955A99A19EA65CC006D29FB = {
+			isa = PBXGroup;
+			children = (
+				F955A9A519EA65CC006D29FB /* CHQGesturePasscodeViewController */,
+				F955A9BF19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests */,
+				F955A9A419EA65CC006D29FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F955A9A419EA65CC006D29FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9A319EA65CC006D29FB /* CHQGesturePasscodeViewController.app */,
+				F955A9BC19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F955A9A519EA65CC006D29FB /* CHQGesturePasscodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9AA19EA65CC006D29FB /* AppDelegate.h */,
+				F955A9AB19EA65CC006D29FB /* AppDelegate.m */,
+				F955A9AD19EA65CC006D29FB /* ViewController.h */,
+				F955A9AE19EA65CC006D29FB /* ViewController.m */,
+				F955A9B019EA65CC006D29FB /* Main.storyboard */,
+				F955A9B319EA65CC006D29FB /* Images.xcassets */,
+				F955A9B519EA65CC006D29FB /* LaunchScreen.xib */,
+				F955A9A619EA65CC006D29FB /* Supporting Files */,
+			);
+			path = CHQGesturePasscodeViewController;
+			sourceTree = "<group>";
+		};
+		F955A9A619EA65CC006D29FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9A719EA65CC006D29FB /* Info.plist */,
+				F955A9A819EA65CC006D29FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F955A9BF19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9C219EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m */,
+				F955A9C019EA65CC006D29FB /* Supporting Files */,
+			);
+			path = CHQGesturePasscodeViewControllerTests;
+			sourceTree = "<group>";
+		};
+		F955A9C019EA65CC006D29FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9C119EA65CC006D29FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F955A9A219EA65CC006D29FB /* CHQGesturePasscodeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F955A9C619EA65CC006D29FB /* Build configuration list for PBXNativeTarget "CHQGesturePasscodeViewController" */;
+			buildPhases = (
+				F955A99F19EA65CC006D29FB /* Sources */,
+				F955A9A019EA65CC006D29FB /* Frameworks */,
+				F955A9A119EA65CC006D29FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHQGesturePasscodeViewController;
+			productName = CHQGesturePasscodeViewController;
+			productReference = F955A9A319EA65CC006D29FB /* CHQGesturePasscodeViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F955A9BB19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F955A9C919EA65CC006D29FB /* Build configuration list for PBXNativeTarget "CHQGesturePasscodeViewControllerTests" */;
+			buildPhases = (
+				F955A9B819EA65CC006D29FB /* Sources */,
+				F955A9B919EA65CC006D29FB /* Frameworks */,
+				F955A9BA19EA65CC006D29FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F955A9BE19EA65CC006D29FB /* PBXTargetDependency */,
+			);
+			name = CHQGesturePasscodeViewControllerTests;
+			productName = CHQGesturePasscodeViewControllerTests;
+			productReference = F955A9BC19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F955A99B19EA65CC006D29FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "陈鸿强";
+				TargetAttributes = {
+					F955A9A219EA65CC006D29FB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F955A9BB19EA65CC006D29FB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F955A9A219EA65CC006D29FB;
+					};
+				};
+			};
+			buildConfigurationList = F955A99E19EA65CC006D29FB /* Build configuration list for PBXProject "CHQGesturePasscodeViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F955A99A19EA65CC006D29FB;
+			productRefGroup = F955A9A419EA65CC006D29FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F955A9A219EA65CC006D29FB /* CHQGesturePasscodeViewController */,
+				F955A9BB19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F955A9A119EA65CC006D29FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F955A9B219EA65CC006D29FB /* Main.storyboard in Resources */,
+				F955A9B719EA65CC006D29FB /* LaunchScreen.xib in Resources */,
+				F955A9B419EA65CC006D29FB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F955A9BA19EA65CC006D29FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F955A99F19EA65CC006D29FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F955A9AF19EA65CC006D29FB /* ViewController.m in Sources */,
+				F955A9AC19EA65CC006D29FB /* AppDelegate.m in Sources */,
+				F955A9A919EA65CC006D29FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F955A9B819EA65CC006D29FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F955A9C319EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F955A9BE19EA65CC006D29FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F955A9A219EA65CC006D29FB /* CHQGesturePasscodeViewController */;
+			targetProxy = F955A9BD19EA65CC006D29FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F955A9B019EA65CC006D29FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F955A9B119EA65CC006D29FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F955A9B519EA65CC006D29FB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F955A9B619EA65CC006D29FB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F955A9C419EA65CC006D29FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F955A9C519EA65CC006D29FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F955A9C719EA65CC006D29FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHQGesturePasscodeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F955A9C819EA65CC006D29FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CHQGesturePasscodeViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F955A9CA19EA65CC006D29FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CHQGesturePasscodeViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHQGesturePasscodeViewController.app/CHQGesturePasscodeViewController";
+			};
+			name = Debug;
+		};
+		F955A9CB19EA65CC006D29FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CHQGesturePasscodeViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHQGesturePasscodeViewController.app/CHQGesturePasscodeViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F955A99E19EA65CC006D29FB /* Build configuration list for PBXProject "CHQGesturePasscodeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F955A9C419EA65CC006D29FB /* Debug */,
+				F955A9C519EA65CC006D29FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F955A9C619EA65CC006D29FB /* Build configuration list for PBXNativeTarget "CHQGesturePasscodeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F955A9C719EA65CC006D29FB /* Debug */,
+				F955A9C819EA65CC006D29FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F955A9C919EA65CC006D29FB /* Build configuration list for PBXNativeTarget "CHQGesturePasscodeViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F955A9CA19EA65CC006D29FB /* Debug */,
+				F955A9CB19EA65CC006D29FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F955A99B19EA65CC006D29FB /* Project object */;
+}
