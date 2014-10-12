@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F955A9A919EA65CC006D29FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9A819EA65CC006D29FB /* main.m */; };
-		F955A9AC19EA65CC006D29FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9AB19EA65CC006D29FB /* AppDelegate.m */; };
-		F955A9AF19EA65CC006D29FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9AE19EA65CC006D29FB /* ViewController.m */; };
-		F955A9B219EA65CC006D29FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955A9B019EA65CC006D29FB /* Main.storyboard */; };
 		F955A9B419EA65CC006D29FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F955A9B319EA65CC006D29FB /* Images.xcassets */; };
 		F955A9B719EA65CC006D29FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F955A9B519EA65CC006D29FB /* LaunchScreen.xib */; };
 		F955A9C319EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9C219EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m */; };
+		F955A9D019EA66A5006D29FB /* CHQGesturePasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9CF19EA66A5006D29FB /* CHQGesturePasscodeViewController.m */; };
+		F955A9D719EA6777006D29FB /* CHQGestureKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9D219EA6777006D29FB /* CHQGestureKeychainUtils.m */; };
+		F955A9D819EA6777006D29FB /* CHQGestureLockPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9D419EA6777006D29FB /* CHQGestureLockPreviewView.m */; };
+		F955A9D919EA6777006D29FB /* CHQGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9D619EA6777006D29FB /* CHQGestureLockView.m */; };
+		F955A9DF19EA7729006D29FB /* gesture_node_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F955A9DB19EA7729006D29FB /* gesture_node_normal.png */; };
+		F955A9E019EA7729006D29FB /* gesture_node_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F955A9DC19EA7729006D29FB /* gesture_node_normal@2x.png */; };
+		F955A9E119EA7729006D29FB /* gesture_node_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F955A9DD19EA7729006D29FB /* gesture_node_selected.png */; };
+		F955A9E219EA7729006D29FB /* gesture_node_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F955A9DE19EA7729006D29FB /* gesture_node_selected@2x.png */; };
+		F955A9E719EA7744006D29FB /* GestureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9E419EA7744006D29FB /* GestureAppDelegate.m */; };
+		F955A9E819EA7744006D29FB /* GestureDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955A9E619EA7744006D29FB /* GestureDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +37,27 @@
 		F955A9A319EA65CC006D29FB /* CHQGesturePasscodeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHQGesturePasscodeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F955A9A719EA65CC006D29FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F955A9A819EA65CC006D29FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F955A9AA19EA65CC006D29FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F955A9AB19EA65CC006D29FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F955A9AD19EA65CC006D29FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F955A9AE19EA65CC006D29FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F955A9B119EA65CC006D29FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F955A9B319EA65CC006D29FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F955A9B619EA65CC006D29FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F955A9BC19EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHQGesturePasscodeViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F955A9C119EA65CC006D29FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F955A9C219EA65CC006D29FB /* CHQGesturePasscodeViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHQGesturePasscodeViewControllerTests.m; sourceTree = "<group>"; };
+		F955A9CE19EA66A5006D29FB /* CHQGesturePasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHQGesturePasscodeViewController.h; sourceTree = "<group>"; };
+		F955A9CF19EA66A5006D29FB /* CHQGesturePasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHQGesturePasscodeViewController.m; sourceTree = "<group>"; };
+		F955A9D119EA6777006D29FB /* CHQGestureKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHQGestureKeychainUtils.h; sourceTree = "<group>"; };
+		F955A9D219EA6777006D29FB /* CHQGestureKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHQGestureKeychainUtils.m; sourceTree = "<group>"; };
+		F955A9D319EA6777006D29FB /* CHQGestureLockPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHQGestureLockPreviewView.h; sourceTree = "<group>"; };
+		F955A9D419EA6777006D29FB /* CHQGestureLockPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHQGestureLockPreviewView.m; sourceTree = "<group>"; };
+		F955A9D519EA6777006D29FB /* CHQGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHQGestureLockView.h; sourceTree = "<group>"; };
+		F955A9D619EA6777006D29FB /* CHQGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHQGestureLockView.m; sourceTree = "<group>"; };
+		F955A9DB19EA7729006D29FB /* gesture_node_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_node_normal.png; sourceTree = "<group>"; };
+		F955A9DC19EA7729006D29FB /* gesture_node_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_node_normal@2x.png"; sourceTree = "<group>"; };
+		F955A9DD19EA7729006D29FB /* gesture_node_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_node_selected.png; sourceTree = "<group>"; };
+		F955A9DE19EA7729006D29FB /* gesture_node_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_node_selected@2x.png"; sourceTree = "<group>"; };
+		F955A9E319EA7744006D29FB /* GestureAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureAppDelegate.h; sourceTree = "<group>"; };
+		F955A9E419EA7744006D29FB /* GestureAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureAppDelegate.m; sourceTree = "<group>"; };
+		F955A9E519EA7744006D29FB /* GestureDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureDemoViewController.h; sourceTree = "<group>"; };
+		F955A9E619EA7744006D29FB /* GestureDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +99,11 @@
 		F955A9A519EA65CC006D29FB /* CHQGesturePasscodeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F955A9AA19EA65CC006D29FB /* AppDelegate.h */,
-				F955A9AB19EA65CC006D29FB /* AppDelegate.m */,
-				F955A9AD19EA65CC006D29FB /* ViewController.h */,
-				F955A9AE19EA65CC006D29FB /* ViewController.m */,
-				F955A9B019EA65CC006D29FB /* Main.storyboard */,
+				F955A9E319EA7744006D29FB /* GestureAppDelegate.h */,
+				F955A9E419EA7744006D29FB /* GestureAppDelegate.m */,
+				F955A9E519EA7744006D29FB /* GestureDemoViewController.h */,
+				F955A9E619EA7744006D29FB /* GestureDemoViewController.m */,
+				F955A9CC19EA6686006D29FB /* CHQGesturePasscodeViewController */,
 				F955A9B319EA65CC006D29FB /* Images.xcassets */,
 				F955A9B519EA65CC006D29FB /* LaunchScreen.xib */,
 				F955A9A619EA65CC006D29FB /* Supporting Files */,
@@ -117,6 +135,41 @@
 				F955A9C119EA65CC006D29FB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F955A9CC19EA6686006D29FB /* CHQGesturePasscodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9CE19EA66A5006D29FB /* CHQGesturePasscodeViewController.h */,
+				F955A9CF19EA66A5006D29FB /* CHQGesturePasscodeViewController.m */,
+				F955A9CD19EA6686006D29FB /* component */,
+			);
+			path = CHQGesturePasscodeViewController;
+			sourceTree = "<group>";
+		};
+		F955A9CD19EA6686006D29FB /* component */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9DA19EA7713006D29FB /* image */,
+				F955A9D119EA6777006D29FB /* CHQGestureKeychainUtils.h */,
+				F955A9D219EA6777006D29FB /* CHQGestureKeychainUtils.m */,
+				F955A9D319EA6777006D29FB /* CHQGestureLockPreviewView.h */,
+				F955A9D419EA6777006D29FB /* CHQGestureLockPreviewView.m */,
+				F955A9D519EA6777006D29FB /* CHQGestureLockView.h */,
+				F955A9D619EA6777006D29FB /* CHQGestureLockView.m */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		F955A9DA19EA7713006D29FB /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F955A9DB19EA7729006D29FB /* gesture_node_normal.png */,
+				F955A9DC19EA7729006D29FB /* gesture_node_normal@2x.png */,
+				F955A9DD19EA7729006D29FB /* gesture_node_selected.png */,
+				F955A9DE19EA7729006D29FB /* gesture_node_selected@2x.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F955A9B219EA65CC006D29FB /* Main.storyboard in Resources */,
 				F955A9B719EA65CC006D29FB /* LaunchScreen.xib in Resources */,
 				F955A9B419EA65CC006D29FB /* Images.xcassets in Resources */,
+				F955A9E119EA7729006D29FB /* gesture_node_selected.png in Resources */,
+				F955A9DF19EA7729006D29FB /* gesture_node_normal.png in Resources */,
+				F955A9E019EA7729006D29FB /* gesture_node_normal@2x.png in Resources */,
+				F955A9E219EA7729006D29FB /* gesture_node_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F955A9AF19EA65CC006D29FB /* ViewController.m in Sources */,
-				F955A9AC19EA65CC006D29FB /* AppDelegate.m in Sources */,
+				F955A9E819EA7744006D29FB /* GestureDemoViewController.m in Sources */,
+				F955A9D919EA6777006D29FB /* CHQGestureLockView.m in Sources */,
+				F955A9D819EA6777006D29FB /* CHQGestureLockPreviewView.m in Sources */,
+				F955A9D719EA6777006D29FB /* CHQGestureKeychainUtils.m in Sources */,
+				F955A9D019EA66A5006D29FB /* CHQGesturePasscodeViewController.m in Sources */,
+				F955A9E719EA7744006D29FB /* GestureAppDelegate.m in Sources */,
 				F955A9A919EA65CC006D29FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F955A9B019EA65CC006D29FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F955A9B119EA65CC006D29FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F955A9B519EA65CC006D29FB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
